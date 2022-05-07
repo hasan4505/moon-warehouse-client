@@ -7,28 +7,34 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="row d-flex p-3">
-        <div className="col-6">
+        <div className="col-4">
           <h2>CONTACT ME</h2>
           <p>
-            Address: <span>155/12, Fake street, USA</span>
+            Address: <span>144/13, Fake street, USA</span>
           </p>
           <p>
-            Phone: <span> (08) 8827 633354</span>
+            Phone: <span> (08) 8820 6333333</span>
           </p>
           <p>
-            Mail: <span>contact@yoursite.com</span>
+            Mail: <span>moon06@gmail.com</span>
           </p>
         </div>
-        <div className="col-6">
+        <div className="col-4">
           <h2>INFORMATION</h2>
           <p>About us</p>
           <p>Legal Notice</p>
           <p>Payment</p>
         </div>
+        <div className="col-4">
+          <h2>SOCIAL</h2>
+          <p>Facebook</p>
+          <p>Pinterest</p>
+          <p>Twitter</p>
+        </div>
       </div>
 
       <p>
-        <small>Copyright @ {year} Gym Essentials. All Rights Reserved.</small>
+        <small>Copyright @ {year} moon warehouse. All Rights Reserved.</small>
       </p>
     </footer>
   );

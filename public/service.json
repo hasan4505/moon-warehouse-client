@@ -33,5 +33,26 @@
     "img": "https://img.freepik.com/free-photo/young-healthy-man-athlete-doing-exercise-with-ropes-gym-single-male-model-practicing-hard-training-his-upper-body-concept-healthy-lifestyle-sport-fitness-bodybuilding-wellbeing_155003-27879.jpg?t=st=1650217239~exp=1650217839~hmac=3dda040588be2b6c5145e9e6addc29c7860c7c37e4f91d448a65c7e59bec2d13&w=360",
     "name": "Crossfit",
     "price": 3000
+  },
+  {
+    "id": 6,
+    "description": "Crossfit is a strength and conditioning workout that is made up of functional movement...",
+    "img": "https://img.freepik.com/free-photo/young-healthy-man-athlete-doing-exercise-with-ropes-gym-single-male-model-practicing-hard-training-his-upper-body-concept-healthy-lifestyle-sport-fitness-bodybuilding-wellbeing_155003-27879.jpg?t=st=1650217239~exp=1650217839~hmac=3dda040588be2b6c5145e9e6addc29c7860c7c37e4f91d448a65c7e59bec2d13&w=360",
+    "name": "Lissfit",
+    "price": 14000
+  },
+  {
+    "id": 7,
+    "description": "Crossfit is a strength and conditioning workout that is made up of functional movement...",
+    "img": "https://img.freepik.com/free-photo/young-healthy-man-athlete-doing-exercise-with-ropes-gym-single-male-model-practicing-hard-training-his-upper-body-concept-healthy-lifestyle-sport-fitness-bodybuilding-wellbeing_155003-27879.jpg?t=st=1650217239~exp=1650217839~hmac=3dda040588be2b6c5145e9e6addc29c7860c7c37e4f91d448a65c7e59bec2d13&w=360",
+    "name": "Crossfit",
+    "price": 9000
+  },
+  {
+    "id": 8,
+    "description": "Crossfit is a strength and conditioning workout that is made up of functional movement...",
+    "img": "https://img.freepik.com/free-photo/young-healthy-man-athlete-doing-exercise-with-ropes-gym-single-male-model-practicing-hard-training-his-upper-body-concept-healthy-lifestyle-sport-fitness-bodybuilding-wellbeing_155003-27879.jpg?t=st=1650217239~exp=1650217839~hmac=3dda040588be2b6c5145e9e6addc29c7860c7c37e4f91d448a65c7e59bec2d13&w=360",
+    "name": "Crossfit",
+    "price": 12000
   }
 ]

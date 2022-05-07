@@ -26,18 +26,19 @@ function App() {
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/signup" element={<Register></Register>}></Route>
-        {/* <Route
-          path="/checkout"
-          element={
-            <RequireAuth>
-              <Checkout></Checkout>
-            </RequireAuth>
-          }
-        ></Route> */}
         <Route
           path="/manageinventory"
           element={<ManageInventory></ManageInventory>}
         ></Route>
+        {/* <Route
+          path="/checkout"
+          element={
+            <RequireAuth>
+              <ManageInventory></ManageInventory>
+            </RequireAuth>
+          }
+        ></Route> */}
+        <Route path="/inventory" element={<Inventory></Inventory>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
 

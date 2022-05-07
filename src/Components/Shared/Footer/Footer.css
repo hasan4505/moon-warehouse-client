@@ -1,0 +1,14 @@
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(40, 93, 225);
+  color: white;
+  text-align: center;
+}
+.footer-text {
+  font-size: 15px;
+  color: white;
+  font-weight: 900;
+}

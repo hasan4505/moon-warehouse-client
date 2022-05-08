@@ -1,14 +1,16 @@
 import React from "react";
 import Banner from "../../../images/banner/banner1.png";
-import ManageInventory from "../../ManageInventory/ManageInventory";
+
 import useWarehouse from "../../../hooks/useWarehouse";
+
+import Items from "../../Items/Items";
 
 const Home = () => {
   const [products, setProducts] = useWarehouse();
   return (
-    <div className="container">
+    <div className="container shadow-lg">
       <div className="d-flex align-items-center mx-auto mt-5">
-        <div className="col-lg-6">
+        <div className="col-lg-4">
           <h1 className="text-danger">
             MOON <span className="text-info">Warehouse</span>{" "}
           </h1>
@@ -18,8 +20,8 @@ const Home = () => {
             and updated the stock of all Items at instantly.....
           </p>
         </div>
-        <div className="col-lg-6">
-          <img className="img-fluid" src={Banner} alt="" />
+        <div className="col-lg-8 shadow-lg">
+          <img className="img-fluid mt-2 rounded" src={Banner} alt="" />
         </div>
       </div>
       <div className="my-5">
@@ -27,10 +29,7 @@ const Home = () => {
         <div className="row">
           <div className="row">
             {products.slice(0, 6).map((product) => (
-              <ManageInventory
-                key={product.id}
-                product={product}
-              ></ManageInventory>
+              <Items key={product.id} product={product}></Items>
             ))}
           </div>
         </div>

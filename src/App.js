@@ -12,8 +12,10 @@ import Register from "./Components/Login/Register/Register";
 import MyItems from "./Components/MyItems/MyItems";
 import Footer from "./Components/Shared/Footer/Footer";
 import Home from "./Components/Home/Home/Home";
-import ManageInventory from "./Components/ManageInventory/ManageInventory";
+import ManageInventory from "./Components/Items/Items";
 import NotFound from "./Components/Shared/NotFound/NotFound";
+import AddItems from "./Components/AddItems/AddItems";
+import ManageItems from "./Components/ManageItems/ManageItems";
 
 function App() {
   return (
@@ -26,10 +28,12 @@ function App() {
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/signup" element={<Register></Register>}></Route>
+        <Route path="/addItems" element={<AddItems></AddItems>}></Route>
         <Route
-          path="/manageinventory"
-          element={<ManageInventory></ManageInventory>}
+          path="/manageItems"
+          element={<ManageItems></ManageItems>}
         ></Route>
+
         {/* <Route
           path="/checkout"
           element={
@@ -38,7 +42,7 @@ function App() {
             </RequireAuth>
           }
         ></Route> */}
-        <Route path="/inventory" element={<Inventory></Inventory>}></Route>
+        <Route path="/items" element={<Inventory></Inventory>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
 

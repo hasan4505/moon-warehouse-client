@@ -1,0 +1,13 @@
+.review-container {
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  text-align: center;
+}
+.review-cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 30px;
+  padding: 10px;
+  margin: 20px;
+}

@@ -1,6 +1,6 @@
-## `Project Link`
+## `Project Name: Moon Warehouse`
 
-This Project firebase link: [Go to Project]().
+This Project firebase link: [Moon Warehouse]().
 
 ## This site is about a warehouse management. Where an user or admin who are logged in, can easily updated or deleted the current stock of items.
 

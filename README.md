@@ -2,6 +2,8 @@
 
 This Project firebase link: [Go to Project]().
 
+## This site is about a warehouse management. Where an user or admin who are logged in, can easily updated or deleted the current stock of items.
+
 # Given a different project name.
 
 # Icons & project title have been shown.

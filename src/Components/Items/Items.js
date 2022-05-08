@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Items = ({ product }) => {
-  const { img, description, name, price } = product;
+  const { img, description, name, price, supplier } = product;
 
   return (
     <div className="g-5 col-sm-12 col-md-6 col-lg-4 ">
@@ -11,8 +11,10 @@ const Items = ({ product }) => {
         style={{ width: "18rem" }}
       >
         <img src={img} className="card-img-top" alt="..." />
+
         <div className="card-body">
           <h5 className="card-title">Name: {name}</h5>
+          <h6 className="card-title">Supplier: {supplier}</h6>
           <p className="card-text">
             <span>
               <b>Description: </b>

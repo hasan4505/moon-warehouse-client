@@ -10,6 +10,7 @@ import Home from "./Components/Home/Home/Home";
 import NotFound from "./Components/Shared/NotFound/NotFound";
 import AddItems from "./Components/AddItems/AddItems";
 import ManageItems from "./Components/ManageItems/ManageItems";
+import RequireAuth from "./Components/RequireAuth/RequireAuth";
 
 function App() {
   return (
@@ -23,19 +24,15 @@ function App() {
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/signup" element={<Register></Register>}></Route>
         <Route path="/addItems" element={<AddItems></AddItems>}></Route>
+
         <Route
           path="/manageItems"
-          element={<ManageItems></ManageItems>}
-        ></Route>
-
-        {/* <Route
-          path="/checkout"
           element={
             <RequireAuth>
-              <ManageInventory></ManageInventory>
+              <ManageItems></ManageItems>
             </RequireAuth>
           }
-        ></Route> */}
+        ></Route>
         <Route path="/items" element={<Inventory></Inventory>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>

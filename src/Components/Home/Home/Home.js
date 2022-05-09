@@ -1,8 +1,6 @@
 import React from "react";
 import Banner from "../../../images/banner/banner1.png";
-
 import useWarehouse from "../../../hooks/useWarehouse";
-
 import Items from "../../Items/Items";
 
 const Home = () => {
@@ -14,8 +12,8 @@ const Home = () => {
           <h1 className="text-danger">
             MOON <span className="text-info">Warehouse</span>{" "}
           </h1>
-          <h3 className="text-success">Delivery of goods from Warehouse</h3>
-          <p className="me-5 text-warning">
+          <h3 className="text-primary">Delivery of goods from Warehouse</h3>
+          <p className="me-5 text-success">
             This is a Warehouse Management Software. Here you find all Products
             and updated the stock of all Items at instantly.....
           </p>
@@ -29,7 +27,7 @@ const Home = () => {
         <div className="row">
           <div className="row">
             {products.slice(0, 6).map((product) => (
-              <Items key={product.id} product={product}></Items>
+              <Items key={product._id} product={product}></Items>
             ))}
           </div>
         </div>

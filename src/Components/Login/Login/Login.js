@@ -90,23 +90,23 @@ const Login = () => {
       </form>
       {errorElement}
       <p>
-        New to MOON?{" "}
+        New to MOON?
         <Link
           to="/signup"
           className="text-primary pe-auto text-decoration-none"
           onClick={navigateRegister}
         >
           Please Sign Up
-        </Link>{" "}
+        </Link>
       </p>
       <p>
-        Forget Password?{" "}
+        Forget Password?
         <button
           className="btn btn-link text-primary pe-auto text-decoration-none"
           onClick={resetPassword}
         >
           Reset Password
-        </button>{" "}
+        </button>
       </p>
       <SocialLogin></SocialLogin>
       <ToastContainer />

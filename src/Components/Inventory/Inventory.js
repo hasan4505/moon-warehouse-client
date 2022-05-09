@@ -7,13 +7,13 @@ const Inventory = () => {
   const [products, setProducts] = useWarehouse();
 
   return (
-    <div className="m-5 g-5">
+    <div className="m-5 g-4">
       <h2 className="text-center">Total Inventory Items: {products.length}</h2>
 
       <div className="row shadow-lg">
         <div className="row">
           {products.map((product) => (
-            <Items key={product.id} product={product}></Items>
+            <Items key={product._id} product={product}></Items>
           ))}
         </div>
       </div>
